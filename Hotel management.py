@@ -31,10 +31,6 @@ def menu7():
     pass
 def menu8():
     pass
-def menu9():
-    pass
-
-
 
 def menu():
     print("""
@@ -51,11 +47,9 @@ def menu():
                         $                                       $
                         $        6. FASHION STORE BILL          $
                         $                                       $
-                        $        7. DISPLAY CUSTOMER DETAILS    $
+                        $        7. TOTAL BILL                  $
                         $                                       $
-                        $        8. TOTAL BILL                  $
-                        $                                       $
-                        $        9. EXIT                        $
+                        $        8. EXIT                        $
                         #########################################
     """, "\n")
     inp = int(input("ENTER MENU NUMBER HERE: "))
@@ -75,8 +69,6 @@ def menu():
         menu7()
     if inp == 8:
         menu8()
-    if inp == 9:
-        menu9()
 
 intro_screen()
 while True:
@@ -86,3 +78,7 @@ while True:
             break
     except:
         break
+# Shubham Sahu
+# Shreyansh Kumar
+# Sayan halder
+# Simba
